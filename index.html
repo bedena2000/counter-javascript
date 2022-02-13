@@ -7,6 +7,8 @@
   <title>Counter App Javascript</title>
   <!-- Title Icon -->
   <link rel="Icon" href="img/input-numbers-svgrepo-com.svg" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Normalize CSS -->
   <link rel="stylesheet" href="styles/normalize.css">
   <!-- Primary Styles -->
@@ -15,6 +17,22 @@
 <body>
   
   
+  <div class="counter-wrapper">
+    <div class="counter-title">0</div>
+    <div class="counter-options-wrapper">
+      <select class="number">
+        <option value="1">1</option>
+        <option value="5">5</option>
+        <option value="25">25</option>
+        <option value="100">100</option>
+      </select>
+      <div class="counter-operations">
+        <i class="fa-solid fa-plus counter-plus"></i>
+        <i class="fa-solid fa-minus counter-minus"></i>
+        <i class="fa-solid fa-circle-xmark counter-reset"></i>
+      </div>
+    </div>
+  </div>
   
   <script src="scripts/app.js"></script>
 </body>
